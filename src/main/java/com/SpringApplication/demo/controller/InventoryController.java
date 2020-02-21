@@ -19,7 +19,7 @@ import java.util.List;
 public class InventoryController
 {
     @Autowired
-    private InventoryService inventoryService;
+    private InventoryService invSvc;
 
     @PostMapping("/SetInventory/")
     @ResponseBody
@@ -35,27 +35,27 @@ public class InventoryController
 
         temp.setPrice(jsonnode.findValue("Price").floatValue());
 
-        inventoryService.Insert(temp);
+        invSvc.Insert(temp);
 
     }
     @GetMapping("/GetInventory/{id}")
     @ResponseBody
     public ResponseEntity<Inventory> getInventory(@NonNull @Valid @PathVariable Integer id)
     {
-        return ResponseEntity.ok(inventoryService.Retrieve(id));
+        return ResponseEntity.ok(invSvc.Retrieve(id));
     }
     @GetMapping("GetInventory/all")
     @ResponseBody
     public ResponseEntity <List<Inventory>> getAllInventory()
     {
-        return ResponseEntity.ok(inventoryService.RetrieveAll());
+        return ResponseEntity.ok(invSvc.RetrieveAll());
     }
 
     @PutMapping("/UpdateInventory/{id}")
     @ResponseBody
     public void updateInventory(@Valid @RequestBody  @PathVariable Integer id, @NonNull @RequestBody @Valid JsonNode jsonnode)
     {
-        Inventory index = inventoryService.Retrieve(id);
+        Inventory index = invSvc.Retrieve(id);
 
         if ((jsonnode.findValue("Artist") != null)) {
             index.setArtist(jsonnode.findValue("Artist").toString());
@@ -72,14 +72,14 @@ public class InventoryController
         if ((jsonnode.findValue("Price") != null)) {
             index.setPrice(jsonnode.findValue("Price").floatValue());
         }
-        inventoryService.Insert(index);
+        invSvc.Insert(index);
     }
 
     @RequestMapping("/DelInventory/{id}")
     @ResponseBody
     public void delInventory(@Valid @RequestBody @PathVariable Integer id)
     {
-        inventoryService.Delete(id);
+        invSvc.Delete(id);
     }
 
 }
