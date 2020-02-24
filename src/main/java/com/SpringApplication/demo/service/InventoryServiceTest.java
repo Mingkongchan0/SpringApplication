@@ -1,45 +1,29 @@
 package com.SpringApplication.demo.service;
-import lombok.NonNull;
-import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.*;
 import com.SpringApplication.demo.model.Inventory;
 import com.SpringApplication.demo.repository.InventoryRepository;
-
-import java.util.ArrayList;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import static org.mockito.Mockito.*;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.AssertionsKt;
-import org.mockito.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-
-import static org.mockito.Mockito.mock;
-
-public class InventoryServiceTest
-{
-
+public class InventoryServiceTest{
     @InjectMocks
     private InventoryService invSvc;
 
     @Mock
     private InventoryRepository invRepo;
-    @Autowired
-    private MockMvc mockMvc;
 
     //Test Data
-    @NonNull private Inventory invTemp;
+    private Inventory invTemp;
 
     @BeforeEach
-    public void TestSetup()
-    {
-       invRepo = mock(InventoryRepository.class);
+    public void TestSetup() {
+        invRepo = mock(InventoryRepository.class);
         invTemp = new Inventory();
-        invTemp.setId(16);
         invTemp.setArtist("MockTest1");
         invTemp.setQuantity(5);
         invTemp.setAlbum("MockTest1");
@@ -47,24 +31,36 @@ public class InventoryServiceTest
     }
 
     @Test
-    void InventorServiceRetrieveTest()
-    {
-        Mockito.when(invRepo.findById(16)).thenReturn(Optional.of(invTemp));
-    }
-    @Test
-    void InventoryServiceRetrieveAllTest(){
-        ArrayList<Inventory> list = new ArrayList<>();
-        Mockito.when(invRepo.findAll()).thenReturn(list);
-    }
-    @Test
     void InventoryServiceInsertTest()
     {
-        Inventory inv = new Inventory();
-        Mockito.when(invRepo.save(invTemp)).thenReturn(inv);
+        Inventory temp = new Inventory();
+        Mockito.when(invRepo.save(invTemp)).thenReturn(temp);
+        Inventory actualTemp = invRepo.getOne(invTemp.getId());
+        assert(actualTemp.getId().equals(temp.getId()));
     }
+
     @Test
-    void InventoryServiceDeleteTest()
+    void InventorServiceRetrieveTest()
     {
+        invRepo.save(invTemp);
+        Mockito.when(invRepo.findById(16)).thenReturn(Optional.of(invTemp));
+        Inventory actualInv = invRepo.getOne(invTemp.getId());
+        assert (actualInv.equals(invRepo.getOne(invTemp.getId())));
+    }
+
+    @Test
+    void InventoryServiceRetrieveAllTest() {
+        List<Inventory> list = Collections.singletonList(invTemp);
+        Mockito.when(invRepo.findAll()).thenReturn(list);
+        List<Inventory> actualList = invRepo.findAll();
+        assert(actualList.equals(list));
+    }
+
+    @Test
+    void InventoryServiceDeleteTest() {
+        Inventory temp = invTemp;
+        invRepo.save(invTemp);
+        Mockito.when(invRepo.findById(16)).thenReturn(Optional.of(temp));
         invRepo.deleteById(16);
         assert (invRepo.findById(16).isEmpty());
     }

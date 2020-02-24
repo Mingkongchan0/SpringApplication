@@ -4,6 +4,7 @@ import com.SpringApplication.demo.model.Inventory;
 import com.SpringApplication.demo.service.InventoryService;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.NonNull;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 import org.springframework.http.ResponseEntity;
@@ -14,8 +15,6 @@ import java.util.List;
 @RestController
 @AutoConfigurationPackage
 //Controller
-
-
 public class InventoryController
 {
     @Autowired
