@@ -1,17 +1,14 @@
 package com.SpringApplication.demo.model;
 import lombok.*;
-import org.springframework.data.annotation.Id;
 import javax.persistence.*;
 
 @Data
 @NoArgsConstructor @AllArgsConstructor
-@EqualsAndHashCode @ToString
-@Entity @Table (name = "tbl_Inventory")
+@EqualsAndHashCode @ToString @Builder
+@Table (name = "tbl_Inventory")
+@Entity
 public class Inventory{
-    @javax.persistence.Id
-    @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Integer id;
+    @Id @GeneratedValue (strategy = GenerationType.IDENTITY) private Integer id;
     private String Artist;
     private String Album;
     private Integer Quantity;
