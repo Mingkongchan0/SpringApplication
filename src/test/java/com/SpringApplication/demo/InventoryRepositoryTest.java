@@ -43,3 +43,4 @@ public class InventoryRepositoryTest
         Assertions.assertNotNull(invRepo, "Data on demand for 'MyBean' failed to initialize correctly");
     }
 }*/
+
