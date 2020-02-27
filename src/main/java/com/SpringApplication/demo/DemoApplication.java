@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 public class DemoApplication{
 	public static void main(String[] args)
 	{
-		System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "test");
+		System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "prod");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 

@@ -1,4 +1,4 @@
-package com.SpringApplication.demo;
+package com.SpringApplication.demo.service;
 import com.SpringApplication.demo.service.InventoryService;
 import org.junit.jupiter.api.*;
 import com.SpringApplication.demo.model.Inventory;
@@ -15,7 +15,8 @@ import java.util.Optional;
 import static org.mockito.Mockito.*;
 
 @Profile("test")
-public class InventoryServiceTest{
+public class InventoryServiceTest
+{
     @InjectMocks
     private InventoryService invSvc;
 
@@ -29,45 +30,37 @@ public class InventoryServiceTest{
     @BeforeEach
     public void TestSetup() {
         MockitoAnnotations.initMocks(this);
-        invTemp = new Inventory();
-        invTemp.setId(1);
-        invTemp.setArtist("MockTest1");
-        invTemp.setQuantity(5);
-        invTemp.setAlbum("MockTest1");
-        invTemp.setPrice(10.15f);
+        invTemp = new Inventory(1, "MockTest1", "MockTest1", 5, 10f);
     }
 
     @Test
-    void InventoryServiceInsertTest()
+    void insertTest()
     {
         invRepo.save(invTemp);
         verify(invRepo).save(any(Inventory.class));
-        System.out.print("Test Passed Successfully");
     }
 
     @Test
-    void InventorServiceRetrieveTest()
+    void retrieveTest()
     {
         invRepo.save(invTemp);
         Mockito.when(invRepo.findById(1)).thenReturn(Optional.of(invTemp));
         Inventory actualInv = invRepo.findById(1).get();
         assert (actualInv.equals(invRepo.findById(1).get()));
         verify(invRepo, times(2)).findById(1);
-        System.out.print("Test Passed Successfully");
     }
 
     @Test
-    void InventoryServiceRetrieveAllTest() {
+    void retrieveAllTest() {
         List<Inventory> list = Collections.singletonList(invTemp);
         Mockito.when(invRepo.findAll()).thenReturn(list);
         List<Inventory> actualList = invRepo.findAll();
         assert(actualList.equals(list));
         verify(invRepo).findAll();
-        System.out.print("Test Passed Successfully");
     }
 
     @Test
-    void InventoryServiceDeleteTest() {
+    void deleteTest() {
         invRepo.save(invTemp);
         invRepo.deleteById(1);
         assert (invRepo.findById(1).isEmpty());

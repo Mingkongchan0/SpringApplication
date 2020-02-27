@@ -2,11 +2,8 @@ package com.SpringApplication.demo.model;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.*;
-import org.springframework.core.env.ConfigurableEnvironment;
-import org.springframework.test.context.TestConstructor;
-import org.springframework.test.web.servlet.MockMvc;
-
 import javax.persistence.*;
+import javax.persistence.Id;
 
 @Data
 @JsonNaming(PropertyNamingStrategy.UpperCamelCaseStrategy.class)

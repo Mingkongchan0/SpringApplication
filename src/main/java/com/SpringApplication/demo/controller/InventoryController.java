@@ -4,9 +4,9 @@ import com.SpringApplication.demo.model.Inventory;
 import com.SpringApplication.demo.service.InventoryService;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.NonNull;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
@@ -22,20 +22,10 @@ public class InventoryController
 
     @PostMapping("/SetInventory/")
     @ResponseBody
-    public void setInventory(@Valid @NonNull JsonNode jsonnode )
+    public ResponseEntity<Inventory> setInventory(@Valid @NonNull @RequestBody Inventory invTemp)
     {
-        Inventory temp = new Inventory();
-
-        temp.setArtist(jsonnode.findValue("Artist").toString());
-
-        temp.setAlbum(jsonnode.findValue("Album").toString());
-
-        temp.setQuantity(jsonnode.findValue("Quantity").asInt());
-
-        temp.setPrice(jsonnode.findValue("Price").floatValue());
-
-        invSvc.Insert(temp);
-
+        invSvc.Insert(invTemp);
+        return ResponseEntity.ok(invTemp);
     }
     @GetMapping("/GetInventory/{id}")
     @ResponseBody
@@ -52,26 +42,27 @@ public class InventoryController
 
     @PutMapping("/UpdateInventory/{id}")
     @ResponseBody
-    public void updateInventory(@Valid @RequestBody  @PathVariable Integer id, @NonNull @RequestBody @Valid JsonNode jsonnode)
+    public ResponseEntity<Inventory> updateInventory(@Valid @PathVariable Integer id, @NonNull @RequestBody @Valid Inventory invTemp)
     {
         Inventory index = invSvc.Retrieve(id);
 
-        if ((jsonnode.findValue("Artist") != null)) {
-            index.setArtist(jsonnode.findValue("Artist").toString());
+        if ((invTemp.getArtist() != null)) {
+            index.setArtist(invTemp.getArtist());
         }
 
-        if ((jsonnode.findValue("Album") != null)) {
-            index.setAlbum(jsonnode.findValue("Album").toString());
+        if ((invTemp.getAlbum() != null)) {
+            index.setAlbum(invTemp.getAlbum());
         }
 
-        if ((jsonnode.findValue("Quantity") != null)) {
-            index.setQuantity(jsonnode.findValue("Quantity").asInt());
+        if ((invTemp.getQuantity() != null)) {
+            index.setQuantity(invTemp.getQuantity());
         }
 
-        if ((jsonnode.findValue("Price") != null)) {
-            index.setPrice(jsonnode.findValue("Price").floatValue());
+        if ((invTemp.getPrice() != null)) {
+            index.setPrice(invTemp.getPrice());
         }
         invSvc.Insert(index);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @RequestMapping("/DelInventory/{id}")
