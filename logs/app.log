@@ -1,0 +1,374 @@
+2020-02-28 10:42:14,351 INFO c.S.d.Log4j2ApplicationTest [main] Starting Log4j2ApplicationTest on CPX-KDTAJRHYV1S with PID 6748 (C:\Users\ming.k.chan\Documents\Application\demo\target\test-classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 10:42:14,374 DEBUG c.S.d.Log4j2ApplicationTest [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 10:42:14,376 INFO c.S.d.Log4j2ApplicationTest [main] The following profiles are active: DEFAULT
+2020-02-28 10:43:57,908 INFO c.S.d.Log4j2ApplicationTest [main] Starting Log4j2ApplicationTest on CPX-KDTAJRHYV1S with PID 15288 (C:\Users\ming.k.chan\Documents\Application\demo\target\test-classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 10:43:57,935 DEBUG c.S.d.Log4j2ApplicationTest [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 10:43:57,936 INFO c.S.d.Log4j2ApplicationTest [main] The following profiles are active: DEFAULT
+2020-02-28 10:43:58,224 INFO c.S.d.Log4j2ApplicationTest [main] Started Log4j2ApplicationTest in 2.111 seconds (JVM running for 5.903)
+2020-02-28 10:43:58,225 DEBUG c.S.d.Log4j2ApplicationTest [main] Debugging log
+2020-02-28 10:43:58,225 INFO c.S.d.Log4j2ApplicationTest [main] Info log
+2020-02-28 10:43:58,225 WARN c.S.d.Log4j2ApplicationTest [main] Hey, This is a warning!
+2020-02-28 10:43:58,226 ERROR c.S.d.Log4j2ApplicationTest [main] Oops! We have an Error. OK
+2020-02-28 10:43:58,226 FATAL c.S.d.Log4j2ApplicationTest [main] Damn! Fatal error. Please fix me.
+2020-02-28 10:56:26,577 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 16740 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 10:56:26,600 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 10:56:26,600 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 10:56:30,431 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.865 seconds (JVM running for 6.621)
+2020-02-28 10:56:30,431 DEBUG c.S.d.DemoApplication [main] Debug message
+2020-02-28 10:56:30,431 INFO c.S.d.DemoApplication [main] Info message
+2020-02-28 10:56:30,432 WARN c.S.d.DemoApplication [main] Warning message
+2020-02-28 10:56:30,432 ERROR c.S.d.DemoApplication [main] Error message
+2020-02-28 10:56:30,432 FATAL c.S.d.DemoApplication [main] Fatal Error message
+2020-02-28 10:57:05,843 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7772 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 10:57:05,850 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 10:57:05,850 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 10:57:08,179 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.781 seconds (JVM running for 4.169)
+2020-02-28 10:57:08,180 DEBUG c.S.d.DemoApplication [main] Debug message
+2020-02-28 10:57:08,180 INFO c.S.d.DemoApplication [main] Info message
+2020-02-28 10:57:08,180 WARN c.S.d.DemoApplication [main] Warning message
+2020-02-28 10:57:08,180 ERROR c.S.d.DemoApplication [main] Error message
+2020-02-28 10:57:08,180 FATAL c.S.d.DemoApplication [main] Fatal Error message
+2020-02-28 10:58:00,067 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17612 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 10:58:00,073 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 10:58:00,073 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 10:58:02,591 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.268 seconds (JVM running for 5.013)
+2020-02-28 11:02:10,738 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7244 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:02:10,746 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:02:10,746 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:02:14,048 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.966 seconds (JVM running for 5.845)
+2020-02-28 11:03:00,877 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17440 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:03:00,893 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:03:00,893 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:03:04,572 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.478 seconds (JVM running for 5.865)
+2020-02-28 11:03:32,975 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 6796 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:03:32,982 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:03:32,983 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:03:35,164 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.919 seconds (JVM running for 4.537)
+2020-02-28 11:05:16,950 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17956 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:05:16,960 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:05:16,960 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:05:19,345 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.977 seconds (JVM running for 5.299)
+2020-02-28 11:06:56,344 INFO c.S.d.DemoApplicationTests [main] Starting DemoApplicationTests on CPX-KDTAJRHYV1S with PID 7916 (started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:06:56,367 DEBUG c.S.d.DemoApplicationTests [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:06:56,367 INFO c.S.d.DemoApplicationTests [main] The following profiles are active: DEFAULT
+2020-02-28 11:07:03,298 INFO c.S.d.DemoApplicationTests [main] Started DemoApplicationTests in 8.128 seconds (JVM running for 11.589)
+2020-02-28 11:08:10,225 INFO c.S.d.DemoApplicationTests [main] Starting DemoApplicationTests on CPX-KDTAJRHYV1S with PID 13120 (started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:08:10,247 DEBUG c.S.d.DemoApplicationTests [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:08:10,249 INFO c.S.d.DemoApplicationTests [main] The following profiles are active: DEFAULT
+2020-02-28 11:08:16,623 INFO c.S.d.DemoApplicationTests [main] Started DemoApplicationTests in 7.368 seconds (JVM running for 10.095)
+2020-02-28 11:11:56,684 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 14528 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:11:56,691 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:11:56,692 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:11:59,357 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.041 seconds (JVM running for 4.904)
+2020-02-28 11:13:53,436 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 14344 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:13:53,441 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:13:53,442 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:13:55,395 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.277 seconds (JVM running for 3.945)
+2020-02-28 11:14:43,937 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 1252 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:14:43,945 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:14:43,946 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:14:46,163 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.599 seconds (JVM running for 4.695)
+2020-02-28 11:16:42,029 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 13344 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:16:42,037 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:16:42,038 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:16:44,199 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.596 seconds (JVM running for 4.353)
+2020-02-28 11:19:22,238 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7692 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:19:22,268 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:19:22,270 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:19:27,340 INFO c.S.d.DemoApplication [main] Started DemoApplication in 6.129 seconds (JVM running for 12.445)
+2020-02-28 11:23:12,173 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 13268 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:23:12,184 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:23:12,186 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:23:14,964 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.203 seconds (JVM running for 4.8)
+2020-02-28 11:27:35,122 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 9748 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:27:35,139 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:27:35,140 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:27:38,782 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.923 seconds (JVM running for 8.712)
+2020-02-28 11:28:43,278 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 4364 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:28:43,293 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:28:43,294 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:28:46,768 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.953 seconds (JVM running for 5.36)
+2020-02-28 11:30:17,975 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 3964 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:30:17,983 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:30:17,983 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:30:20,820 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.212 seconds (JVM running for 4.622)
+2020-02-28 11:31:03,135 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7116 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:31:03,143 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:31:03,144 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:31:06,289 INFO c.S.d.DemoApplication [main] Started DemoApplication in 10.395 seconds (JVM running for 12.037)
+2020-02-28 11:37:04,537 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 3308 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:37:04,546 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:37:04,547 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:37:08,081 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.9 seconds (JVM running for 5.57)
+2020-02-28 11:37:21,744 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 12612 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:37:21,751 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:37:21,751 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:37:24,599 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.162 seconds (JVM running for 4.53)
+2020-02-28 11:37:42,416 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 2072 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:37:42,423 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:37:42,423 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:37:45,042 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.938 seconds (JVM running for 4.789)
+2020-02-28 11:40:18,091 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17776 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:40:18,099 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:40:18,099 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:40:21,341 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.638 seconds (JVM running for 4.943)
+2020-02-28 11:40:33,433 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 2520 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:40:33,439 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:40:33,440 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:40:36,398 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.265 seconds (JVM running for 5.16)
+2020-02-28 11:41:32,527 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 16308 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:41:32,534 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:41:32,535 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:41:35,194 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.966 seconds (JVM running for 4.607)
+2020-02-28 11:45:26,521 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 16092 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:45:26,532 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:45:26,534 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:45:29,669 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.518 seconds (JVM running for 4.829)
+2020-02-28 11:45:44,767 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 2740 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:45:44,783 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:45:44,785 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:45:48,240 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.842 seconds (JVM running for 5.211)
+2020-02-28 11:45:54,713 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 8 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:45:54,719 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:45:54,720 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:45:57,224 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.816 seconds (JVM running for 4.096)
+2020-02-28 11:46:14,374 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 16400 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:46:14,381 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:46:14,382 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:46:17,635 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.612 seconds (JVM running for 4.848)
+2020-02-28 11:46:33,937 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7608 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:46:33,946 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:46:33,947 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:46:36,516 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.873 seconds (JVM running for 4.456)
+2020-02-28 11:47:09,515 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7976 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:47:09,521 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:47:09,521 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:47:12,282 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.078 seconds (JVM running for 4.44)
+2020-02-28 11:47:41,378 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 14104 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:47:41,385 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:47:41,385 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:47:43,966 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.064 seconds (JVM running for 4.765)
+2020-02-28 11:47:55,961 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 1484 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 11:47:55,971 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 11:47:55,972 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 11:47:59,299 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.807 seconds (JVM running for 5.401)
+2020-02-28 12:08:33,364 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 18568 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:08:33,378 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:08:33,379 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 12:08:37,214 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.548 seconds (JVM running for 6.487)
+2020-02-28 12:09:32,407 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 7544 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:09:32,415 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:09:32,416 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 12:09:36,387 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.406 seconds (JVM running for 6.837)
+2020-02-28 12:10:13,455 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-2] userId is: 11252
+2020-02-28 12:11:06,333 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-5] userId is: 11252
+2020-02-28 12:11:27,336 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-6] userId is: 11252
+2020-02-28 12:43:57,336 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 20352 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:43:57,355 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:43:57,356 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 12:44:00,834 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.175 seconds (JVM running for 5.774)
+2020-02-28 12:45:43,164 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 12980 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:45:43,174 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:45:43,175 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 12:45:48,120 INFO c.S.d.DemoApplication [main] Started DemoApplication in 5.366 seconds (JVM running for 7.309)
+2020-02-28 12:45:50,618 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-1] userId is: "11252"
+2020-02-28 12:46:48,607 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 18624 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:46:48,616 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:46:48,617 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 12:46:51,809 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.637 seconds (JVM running for 5.146)
+2020-02-28 12:47:16,111 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 19732 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:47:16,123 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:47:16,124 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 12:47:18,955 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.351 seconds (JVM running for 5.265)
+2020-02-28 12:47:34,943 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 3672 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:47:34,958 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:47:34,960 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 12:47:39,009 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.684 seconds (JVM running for 6.601)
+2020-02-28 12:48:38,265 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-2] userId is: "11252"
+2020-02-28 12:48:46,926 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-4] userId is: "11252"
+2020-02-28 12:48:48,746 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-5] userId is: "11252"
+2020-02-28 12:48:52,586 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-6] userId is: "122252"
+2020-02-28 12:48:52,860 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-7] userId is: "122252"
+2020-02-28 12:49:10,988 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 8228 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 12:49:10,997 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 12:49:10,998 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 12:49:14,255 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.714 seconds (JVM running for 5.838)
+2020-02-28 12:49:17,085 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-2] userId is: "122252"
+2020-02-28 13:00:16,945 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17740 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 13:00:16,953 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 13:00:16,954 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 13:00:20,566 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.996 seconds (JVM running for 5.251)
+2020-02-28 13:00:45,143 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17184 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 13:00:45,148 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 13:00:45,149 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 13:00:48,042 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.217 seconds (JVM running for 4.491)
+2020-02-28 13:01:01,350 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 2964 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 13:01:01,356 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 13:01:01,356 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 13:01:03,801 INFO c.S.d.DemoApplication [main] Started DemoApplication in 2.761 seconds (JVM running for 4.085)
+2020-02-28 13:03:01,745 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17456 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 13:03:01,751 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 13:03:01,751 INFO c.S.d.DemoApplication [main] The following profiles are active: prod
+2020-02-28 13:03:04,767 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.348 seconds (JVM running for 4.707)
+2020-02-28 13:03:10,935 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-1] userId is: "122252"
+2020-02-28 15:18:02,548 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 6940 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 15:18:02,560 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 15:18:02,562 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 15:18:05,809 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.849 seconds (JVM running for 5.33)
+2020-02-28 15:18:55,314 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-2] userId is: "122252"
+2020-02-28 15:21:48,857 INFO c.S.d.Log4j2ApplicationTest [main] Starting Log4j2ApplicationTest on CPX-KDTAJRHYV1S with PID 13276 (C:\Users\ming.k.chan\Documents\Application\demo\target\test-classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 15:21:48,866 DEBUG c.S.d.Log4j2ApplicationTest [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 15:21:48,867 INFO c.S.d.Log4j2ApplicationTest [main] The following profiles are active: DEFAULT
+2020-02-28 15:22:22,396 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 18060 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 15:22:22,406 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 15:22:22,407 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 15:22:25,678 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.795 seconds (JVM running for 5.441)
+2020-02-28 15:26:57,979 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 17676 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 15:26:57,988 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 15:26:57,988 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 15:27:01,146 INFO c.S.d.DemoApplication [main] Started DemoApplication in 3.559 seconds (JVM running for 5.722)
+2020-02-28 15:27:35,379 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-1] userId is: 19924
+2020-02-28 15:27:35,438 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:148) ~[?:?]
+	at com.SpringApplication.demo.service.InventoryService.Retrieve(InventoryService.java:23) ~[classes/:?]
+	at com.SpringApplication.demo.controller.InventoryController.getInventory(InventoryController.java:39) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-02-28 15:27:45,604 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-4] userId is: "122252"
+2020-02-28 15:27:47,481 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-5] userId is: 19924
+2020-02-28 15:27:55,094 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-6] userId is: 122252
+2020-02-28 15:27:57,228 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-7] userId is: 19924
+2020-02-28 15:28:10,847 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-8] userId is: 19284
+2020-02-28 15:28:20,155 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-9] userId is: 19284
+2020-02-28 15:28:44,653 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-10] userId is: 404
+2020-02-28 15:28:44,666 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.SpringApplication.demo.model.Inventory entity with id 12 exists!] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class com.SpringApplication.demo.model.Inventory entity with id 12 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:176) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:175) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) ~[spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) ~[spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.sun.proxy.$Proxy104.deleteById(Unknown Source) ~[?:?]
+	at com.SpringApplication.demo.service.InventoryService.Delete(InventoryService.java:31) ~[classes/:?]
+	at com.SpringApplication.demo.controller.InventoryController.delInventory(InventoryController.java:79) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-02-28 15:29:01,693 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-3] userId is: 2902

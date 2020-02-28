@@ -1,0 +1,9 @@
+2020-02-28 10:52:06,365 INFO o.s.b.StartupInfoLogger [main] Starting Log4j2ApplicationTest on CPX-KDTAJRHYV1S with PID 9388 (C:\Users\ming.k.chan\Documents\Application\demo\target\test-classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 10:52:06,383 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 10:52:06,385 INFO o.s.b.SpringApplication [main] The following profiles are active: DEFAULT
+2020-02-28 10:52:06,703 INFO o.s.b.StartupInfoLogger [main] Started Log4j2ApplicationTest in 11.448 seconds (JVM running for 16.081)
+2020-02-28 10:52:06,705 DEBUG c.S.d.Log4j2ApplicationTest [main] Debugging log
+2020-02-28 10:52:06,706 INFO c.S.d.Log4j2ApplicationTest [main] Info log
+2020-02-28 10:52:06,707 WARN c.S.d.Log4j2ApplicationTest [main] Hey, This is a warning!
+2020-02-28 10:52:06,707 ERROR c.S.d.Log4j2ApplicationTest [main] Oops! We have an Error. OK
+2020-02-28 10:52:06,708 FATAL c.S.d.Log4j2ApplicationTest [main] Damn! Fatal error. Please fix me.

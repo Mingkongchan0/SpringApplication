@@ -65,7 +65,7 @@ public class InventoryControllerTest
     void setInventoryTest()
     {
         invSvc.Insert(temp);
-        ResponseEntity<Inventory> responseEntity = invCon.setInventory(temp);
+        ResponseEntity<Inventory> responseEntity = invCon.setInventory("404", temp);
         Assertions.assertEquals(responseEntity.getStatusCodeValue(), 200);
     }
 
@@ -73,7 +73,7 @@ public class InventoryControllerTest
     void getInventoryTest()
     {
         invSvc.Retrieve(temp.getId());
-        ResponseEntity<Inventory> responseEntity = invCon.getInventory(temp.getId());
+        ResponseEntity<Inventory> responseEntity = invCon.getInventory("404", temp.getId());
         Assertions.assertEquals(responseEntity.getStatusCodeValue(), 200);
     }
 
@@ -96,7 +96,7 @@ public class InventoryControllerTest
         Inventory index = invSvc.Retrieve(temp.getId());
         index.setArtist(temp2.getArtist());
         invSvc.Insert(index);
-        ResponseEntity<Inventory> responseEntity2 = invCon.updateInventory(1, temp2);
+        ResponseEntity<Inventory> responseEntity2 = invCon.updateInventory("404", 1, temp2);
         Assertions.assertEquals(responseEntity2.getStatusCodeValue(), 200);
     }
 }
