@@ -5,8 +5,6 @@ import com.SpringApplication.demo.service.InventoryService;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
-import org.apache.logging.log4j.core.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 import org.springframework.http.HttpStatus;

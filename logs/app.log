@@ -372,3 +372,13 @@ org.springframework.dao.EmptyResultDataAccessException: No class com.SpringAppli
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar:9.0.30]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
 2020-02-28 15:29:01,693 DEBUG c.S.d.c.InventoryController [http-nio-8080-exec-3] userId is: 2902
+2020-02-28 17:17:00,890 INFO c.S.d.DemoApplication [main] Starting DemoApplication on CPX-KDTAJRHYV1S with PID 96 (C:\Users\ming.k.chan\Documents\Application\demo\target\classes started by ming.k.chan in C:\Users\ming.k.chan\Documents\Application\demo)
+2020-02-28 17:17:00,898 DEBUG c.S.d.DemoApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-28 17:17:00,898 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 17:17:04,960 INFO c.S.d.DemoApplication [main] Started DemoApplication in 4.549 seconds (JVM running for 6.111)
+2020-02-28 17:28:16,070 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 17:28:20,849 INFO c.S.d.DemoApplication [main] Started DemoApplication in 8.695 seconds (JVM running for 11.435)
+2020-02-28 17:34:09,498 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-02-28 17:34:15,996 INFO c.S.d.DemoApplication [main] Started DemoApplication in 11.53 seconds (JVM running for 13.857)
+2020-03-02 10:53:29,322 INFO c.S.d.DemoApplication [main] The following profiles are active: test
+2020-03-02 10:53:35,551 INFO c.S.d.DemoApplication [main] Started DemoApplication in 10.52 seconds (JVM running for 13.594)
